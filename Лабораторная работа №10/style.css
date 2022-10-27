@@ -55,10 +55,22 @@ a{
 
 .intro__img{
     position: relative;
-    bottom: -7px;
+    bottom: 24px;
     max-width: 376px;
     width: 100%;
     margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.phone-screen{
+    position: relative;
+    top: 24px;
+}
+
+.phone-form{
+    position: absolute;
+    z-index: 20;
 }
 
 .intro__content{
@@ -130,6 +142,19 @@ a{
     padding-top: 40px;
     position: absolute;
     z-index: 5;
+    display: flex;
+    justify-content: center;
+}
+
+.card__screen{
+    position: relative;
+    bottom: 35px;
+}
+
+.card__phone{
+    position: absolute;
+    z-index: 20;
+    bottom: 20px;
 }
 
 .card__description{
