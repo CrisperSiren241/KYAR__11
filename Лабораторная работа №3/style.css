@@ -1,0 +1,28 @@
+.row{
+    height: 75px;
+}
+
+.align-items-start{
+    background-color: violet;
+}
+
+.align-items-center{
+
+    background-color: red;
+}
+
+.align-items-end{
+    background-color: blueviolet;
+}
+
+.align-self-start{
+    background-color: green;
+}
+
+.align-self-center{
+    background-color: greenyellow;
+}
+
+.align-self-end{
+    background-color: red;
+}

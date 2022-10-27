@@ -1,0 +1,46 @@
+.block{
+    width: 22%;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+    background-color: aquamarine;
+}
+
+.text{
+    float: right;
+}
+
+
+@media (min-width: 480px) and (max-width: 800px){
+    h1{
+        color: blue;
+        font-size: 24px;
+    }
+    .block{
+        width: 25%;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .block{
+        width: 45%;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 800px){
+    h1{ 
+        color:brown;
+    }   
+}
+
+@media (max-width: 500px), screen and (orientation: portrait)
+{
+    p{
+        display: none;
+    }
+}

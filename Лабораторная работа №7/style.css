@@ -1,0 +1,99 @@
+a{
+    text-decoration: none;
+    color: black
+}
+
+.container{
+    padding: 5px 0 5px;
+}
+
+.navigation_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation_2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation_3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigation_3 a{
+    margin-right: 10px;
+}
+
+.navigation_4 {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation_4 a{
+    margin-right: 10px;
+}
+
+
+.navigation_5 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation_5 a{
+    margin-right: 10px;
+}
+
+
+.navigation_6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.word{
+    font-weight: bold;
+}
+
+.navigation_8 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.chess{
+    display: table;
+}
+
+.chess__row{
+    display: table-row;
+}
+
+.chess{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.chess__cell{
+    padding: 8px;
+}
+
+.chess .chess__cell:nth-child(odd)
+{
+    background: black;
+}
+
+.chess .chess__cell:nth-child(even)
+{
+    color: #fff;
+}
+
+
+
+

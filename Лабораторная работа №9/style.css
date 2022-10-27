@@ -1,0 +1,142 @@
+.container-1{
+    max-width: 300px;
+    width:100%;
+    height: 100px;
+    display: flex;
+}
+
+.blue-block{
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.red-block{
+    background-color: red;
+    flex-grow: 2;
+}
+
+.container-2{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.emoji:nth-child(1){
+    flex-basis: 1200px;
+}
+
+.container-3{
+    margin-top: 100px;
+    display: flex;
+}
+
+.block-1{
+    flex-basis: 1200px;
+    height: 150px;
+    background-color: blueviolet;
+    flex-shrink: 1;
+}
+
+.block-2{
+    flex-basis: 1200px;
+    height: 150px;
+    background-color: red;
+    flex-shrink: 2;
+}
+
+.block-3{
+    flex-basis: 1200px;
+    height: 150px;
+    background-color: blue;
+    flex-shrink: 3;
+}
+
+.container-4{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;;
+}
+
+.block-4{
+    background-color: yellow;
+    flex: 0 0 7em;
+}
+
+.block-5{
+    background-color: orange;
+    flex: 0 1 7em;
+}
+
+.block-6{
+    background-color: red;
+    flex: 1 0 0;
+}
+
+.block-7{
+    background-color: purple;
+    flex: 2 0 0;
+}
+
+.block-8{
+    background-color: orange;
+    flex: 3 3 50%;
+}
+
+.block-9{
+    background-color: yellow;
+    flex: 1 1 50%;
+}
+
+.card{
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card__image img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.container-5{
+    margin-top: 20px;
+    max-width: 600px;
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container__content-1{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Logo{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    justify-content: space-between;
+}
+
+
