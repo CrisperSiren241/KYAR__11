@@ -139,4 +139,8 @@
     justify-content: space-between;
 }
 
+.content__text{
+    flex-direction: column;
+}
+
 
