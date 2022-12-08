@@ -1,0 +1,523 @@
+*,
+*:after,
+*:before{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans';
+}
+
+.bolded-font{
+    font-weight: bold;
+}
+
+.container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro__image{
+    background: url('./images/intro2.png') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-height: 900px;
+    height: 100%;
+}
+
+.intro__overlay{
+    background: url('./images/intro.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-height: 900px;
+    height: 100%;
+}
+
+.intro__container{
+    padding-top: 90px;
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    'logo button'
+    'intro .';
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.intro__info{
+    grid-area: intro;   
+    padding-top: 190px;
+    padding-bottom: 280px;
+}
+
+.burger-button{
+    grid-area: button;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.intro__title{
+    font-size: 72px;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+.intro__subtitle{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.feature__main-block{
+    display: grid;
+    background-color: #f3f1ef;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.feature__main-block-image{
+    background: url('./images/CONTAINER.png') right no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.feature__content{
+    padding-top: 110px;
+    padding-bottom: 125px;
+    max-width: 500px;
+    padding-left: 60px;
+}
+
+.feature__title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #666666;
+    padding-bottom: 42px;
+}
+
+.feature__subtitle{
+    font-size: 32px;
+    color: #666666;
+    font-weight: 300;
+}
+
+.feature__block{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);;
+}
+
+.feature__block img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.view__inner{
+    background-color: #3f729b;
+    display: grid;
+    grid-template-columns: repeat(4,calc(100%/4));
+    grid-template-rows: minmax(auto,515px)
+}
+
+.view__content{
+    grid-column: span 2;
+    max-width: 580px;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 120px;
+}
+
+.view__app{
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.view__description{
+    font-size: 35px;
+    font-weight: 300;
+    padding-bottom: 60px;
+    padding-right: 80px;
+}
+
+.button{
+    max-width: 280px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 3px solid #fff;
+    border-radius: 40px;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+.button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.view__image img{
+    object-fit: cover;
+    width: 100%;
+    min-height:100%;
+}
+
+.music-chart__inner{
+    background: url('./images/music.png') left no-repeat;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+}
+
+.music-chart__content{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2,calc(100%/2));
+    grid-template-rows: repeat(2,450px);
+}
+
+.music-chart__block{
+    background-color: #282b2f;
+    grid-row: 1/3;
+}
+
+.music-chart__title{
+    background-color: #212227;
+    padding-top: 130px;
+    padding-left: 55px;
+    padding-bottom: 20px;
+}
+
+.music-chart__name{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2ebd59;
+}
+
+.music-chart__author{
+    font-size: 16px;
+    color: #2ebd59;
+    padding-bottom: 40px;
+}
+
+.music-chart__feature{
+    font-size: 14px;
+    max-width: 230px;
+    color: #fff;
+    padding-bottom: 70px;
+}
+
+.music-chart__title .button{
+    color: #2ebd59;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border:3px solid #2ebd59;
+}
+
+.references__inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.references__inner h1{
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.spotify-block{
+    padding-top: 135px;
+    padding-bottom: 145px;
+    background-color: #2ebd59;
+}
+
+.spotify-content{
+    max-width: 590px;
+    width: 100%;
+    margin-left: auto;
+}
+
+.itunes-block{
+    padding-left: 60px;
+    padding-top: 135px;
+    background-color: #212227;
+}
+
+.follow{
+    max-width: 500px;
+    padding-bottom: 55px;
+}
+
+.footer .container{
+    background-color: #282b2f;
+    padding-top: 100px;
+}
+
+.footer__inner {
+    margin: auto;
+    padding-bottom: 108px;
+    color: #919191;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 1180px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2,auto);
+    grid-template-areas: 
+    'amazing contact subscribe'
+    'amazing follow sponsor';
+}
+
+.footer__inner h1{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer__title{
+    padding-bottom: 25px;
+    max-width: 135px;
+    width: 100%;
+}
+
+.footer__description{
+    grid-area: amazing;
+    max-width: 290px;
+    width: 100%;
+}
+
+.footer__subtitle{
+    padding-bottom: 20px;
+}
+
+.footer__contact{
+    grid-area: contact;
+    max-width: 175px;
+    width: 100%;
+}
+
+.footer__location{
+    padding-bottom: 18px;
+}
+
+.footer__subscribe{
+    max-width: 485px;
+    width: 100%;
+    grid-area: subscribe;
+}
+
+.footer__input input{
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    width: 100%;
+    background-color: #4d4e52;
+}
+
+input::placeholder{
+    color: #919191;
+}
+
+.footer__follow{
+    max-width: 135px;
+    grid-area: follow;
+}
+
+.footer__sponsor{
+    max-width: 285px;
+    width: 100%;
+    grid-area: sponsor;
+}
+
+.footer__logotypes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo-block{
+    padding: 20px;
+    border: 2px solid #f3f1ef;
+}
+
+@media(max-width: 1260px) {
+    .intro__container, .view__content,.spotify-block, .footer__inner{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .view__image{
+        grid-column: span 2;
+        overflow: hidden;
+    }
+}
+
+@media(max-width: 1024px){
+    .feature__content{
+        padding-left: 30px;
+    }
+    
+    .view__content{
+        padding-top: 60px;
+    }
+    
+    .music-chart__content{
+        max-width: 100%;
+    }
+
+    .footer__contact, .footer__follow{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 900px){
+    .feature__subtitle, .view__description, .follow{
+        font-size: 25px;
+    }
+
+    .intro__container{
+        grid-template-areas: 
+        'logo button'
+        'intro intro';
+    }
+
+    .intro__info{
+        padding-top: 90px;
+    }
+
+    .feature__main-block{
+        grid-template-columns: 1fr;
+    }
+
+    .feature__main-block-image{
+        min-height: 425px;
+    }
+
+    .feature__content{
+        max-width: 100%;
+    }
+
+    .feature__block{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .view__content{
+        padding-top: 30px;
+    }
+
+    .music-chart__block{
+        display: none;
+    }
+
+    .music-chart__title{
+        padding-top: 350px;
+        grid-row: span 2;
+    }
+
+    .itunes-block{
+        padding-right: 30px;
+    }
+
+    .references__inner{
+        display: initial;
+    }
+
+    .itunes-block{
+        padding-top: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .itunes-content{
+        max-width: 590px;
+        margin-left: auto;
+        padding-top: 135px;
+        padding-bottom: 145px;
+    }
+
+    .footer__inner {
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+        grid-template-areas: 
+        'amazing contact'
+        'amazing follow'
+        'subscribe sponsor';
+    }
+
+    .footer__description{
+        max-width: 100%;
+    }
+
+    .footer__subscribe{
+        padding-top: 20px;
+    }
+
+    .footer__follow{
+        padding-top: 20px;
+    }
+
+    .footer__sponsor{
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 625px){
+    .button{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .music-chart__title .button{
+        font-size: 12px;
+    }
+    
+    .feature__block{
+        grid-template-columns: 1fr;
+    }
+
+    .view__app{
+        padding-top: 30px;
+    }
+
+    .view__description{
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+    .music-chart__content{
+        grid-template-rows: 1fr;
+    }
+
+    .music-chart__title{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 30px;
+    }
+
+    .footer__inner {
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(5,auto);
+        grid-template-areas: 
+        'amazing'
+        'contact'
+        'follow'
+        'subscribe'
+        'sponsor';
+    }
+    .footer__contact{
+        padding-top: 20px;
+    }
+
+    .footer__follow, .footer__contact{
+        margin-left: 0;
+    }
+}
