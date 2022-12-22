@@ -1,0 +1,40 @@
+$n:100px;
+$w:100px;
+
+@mixin h($n)
+{
+    height: $n;
+}
+
+@mixin w($w)
+{
+    height: $w;
+}
+
+@mixin placeholder()
+{
+    &::placeholder{
+        color: blue;
+    }
+}
+
+@mixin selection()
+{
+    &::selection{
+        background-color: greenyellow;
+    }
+}
+
+@mixin keyframes()
+{
+    &::keyframes{
+        opacity: 0.5;
+    }
+}
+
+@for $i from 1 to 101{
+    .text-#{$i}
+    {
+        font-size: #{$i}px;
+    }
+}

@@ -1,0 +1,11 @@
+.footer{
+    font-family: 'Ribeye', cursive;
+    font-size: 24px;
+    background: rgba(38, 148, 153, 0.04);
+    height: 116px;
+
+    &__logo{
+        position: relative;
+        top: 55px;
+    }
+}

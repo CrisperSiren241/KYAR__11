@@ -1,0 +1,12 @@
+@color: red;
+@percent: 25%;
+@color-darken: @color - @percent;
+@color-light: @color + @percent;
+
+a{
+    text-decoration: none;
+    color: darken(red, 25%);
+    &:hover{
+        color: @color-light;
+    }
+}

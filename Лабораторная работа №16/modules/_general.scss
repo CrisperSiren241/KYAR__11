@@ -1,0 +1,38 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: $wider;
+    background-color:aqua;
+    height: 100px;
+    border:  $border-wider solid black;
+}
+
+.dec-font{
+    color: $red-font;
+}
+
+.font-block{
+    &__red{
+        @include red;
+    }
+
+    &__blue{
+        @include blue;
+    }
+
+    &__green{
+        @include green;
+    }
+}
+
+.block{
+    @include placeholder;
+    @include keyframes;
+    @include selection; 
+}
+

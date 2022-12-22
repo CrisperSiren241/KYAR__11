@@ -1,0 +1,21 @@
+.header{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    margin-top: 42px;
+
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo{
+        font-family: 'Ribeye', cursive;
+        font-size: 24px;
+        color: #fff;
+    }
+}

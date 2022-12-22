@@ -1,0 +1,9 @@
+.container {
+  color: #9fc131;
+  border: 1px solid #9fc131;
+}
+.block {
+  line-height: 1.667;
+  background-color: #bf0000;
+  color: #4040ff;
+}

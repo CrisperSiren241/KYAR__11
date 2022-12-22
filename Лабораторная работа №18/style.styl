@@ -1,0 +1,20 @@
+green-color = #9FC131
+brd = 5px solid #9FC131
+
+block()
+    background-color #fff
+
+dark-color()
+    return green-color - 25%
+
+light-color()
+    return green-color + 25%
+
+.container
+    color green-color
+    border 1px solid @color
+
+.block
+    line-height round(30/18, 3)
+    background-color darken(red, 25%)
+    color: lighten(blue, 25%)
