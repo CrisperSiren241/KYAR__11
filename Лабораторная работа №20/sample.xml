@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<?xml-model href="schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="stylesheet.xsl" type="text/xsl"?>
+
+<!DOCTYPE container [
+    <!ELEMENT container (content, comment__section, rate)>
+    <!ELEMENT content (#PCDATA)>
+    <!ELEMENT comment__section (#PCDATA)>
+    <!ELEMENT rate (#PCDATA)>
+]>
+
+<container>
+    <content>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam molestias provident quaerat libero, neque cupiditate, aut aliquam qui perspiciatis corporis minima repellat dolorem accusamus dignissimos sequi ullam corrupti et fugiat!
+        я - гей - Ваня Таланков.
+    </content>
+    <comment__section>
+        --Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, eveniet!
+    </comment__section>
+    <rate>
+        5.0/10
+    </rate>
+</container>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .animate__rotateInUpRight{
+            animation-duration: 4s;   
+        }
+    </style>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="buttons m-10">
+        <button class="bg-yellow-400 hover:bg-yellow-200 hover:text-black text-white font-bold py-4 px-8">
+            WARNING
+        </button>
+        <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-6 px-6">
+            ERROR
+        </button>
+    </div>
+
+    <nav class="m-10 bg-green-900 w-96 h-16 px-8 py-4 flex justify-around">
+        <a class="text-white no-underline hover:underline" href="#">Каталог</a>
+        <a class="text-white no-underline hover:underline" href="#">Бренды</a>
+        <a class="text-white no-underline hover:underline" href="#">Акции</a>
+    </nav>
+
+    <div class="text-red-900 m-10">
+        <span class="hover:text-yellow-400">ipsum</span> dolor sit amet, consectetur adipisicing elit. Unde eaque nostrum assumenda architecto! <span class="hover:text-yellow-400">Ipsum</span> ducimus adipisci rem saepe labore voluptates incidunt exercitationem, aliquam quidem blanditiis maxime esse nostrum consequuntur, fugit voluptatem, quibusdam vitae vel earum nulla. Iusto magnam sit inventore odit illum, amet doloremque provident pariatur quas dignissimos <span class="hover:text-yellow-400">ipsum</span> repudiandae.
+    </div>
+
+    <div class="m-10 flex justify-around">
+        <div class="bg-red-500 p-20"></div>
+        <div class="bg-green-500 p-20"></div>
+        <div class="bg-blue-500 p-20"></div>
+    </div>
+
+    <div class="m-10 grid grid-cols-3 gap-4">
+        <div class="bg-indigo-700 py-20 px-20"></div>
+        <div class="bg-indigo-700 py-20 px-20"></div>
+        <div class="bg-indigo-700 py-20 px-20"></div>
+        <div class="bg-indigo-700 py-20 px-20"></div>
+        <div class="bg-indigo-700 py-20 px-20"></div>
+        <div class="bg-indigo-700 py-20 px-20"></div>
+        <div class="bg-indigo-700 py-20 px-20"></div>
+        <div class="bg-indigo-700 py-20 px-20"></div>
+        <div class="bg-indigo-700 py-20 px-20"></div>
+    </div>
+
+    <div class="m-20 text-4xl font-bold animate__animated animate__rotateInUpRight animate__delay-3s animate__repeat-3">АНИМАЦИЯ</div>
+    <div class="m-20 text-4xl font-bold animate__animated animate__flipInX animate__repeat-5 animate__slower">АНИМАЦИЯ</div>
+    <div class="m-20 text-4xl font-bold animate__animated animate__fadeInBottomLeft animate__repeat-7">АНИМАЦИЯ</div>
+    <div class="m-20 text-4xl font-bold animate__animated animate__bounce animate__repeat-2">АНИМАЦИЯ</div>
+</body>
+</html>

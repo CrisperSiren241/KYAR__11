@@ -1,0 +1,16 @@
+content{
+    display: block;
+    width: 100%;
+    color:red;
+}
+
+comment__section{
+    color: blue;
+    font-size: 32px;
+}
+
+rate{
+    font-size: 64px;
+    display: block;
+    width: 100%;
+}
